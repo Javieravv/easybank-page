@@ -44,7 +44,7 @@ const CardChoose:FC<Props> = ( { description, icono, title }) => {
                     alt={ title } 
                 />
             </div>
-            <h3 className="mb-5"> { title }</h3>
+            <h3 className="title-choose mb-5"> { title }</h3>
             <p> { description } </p>
         </Col>
     )

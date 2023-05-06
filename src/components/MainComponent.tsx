@@ -1,4 +1,4 @@
-import { HeaderComponent, LatestArticles, NavBar, WhyChooseEasy } from "."
+import { FooterComponent, HeaderComponent, LatestArticles, NavBar, WhyChooseEasy } from "."
 
 export const MainComponent = () => {
     return (
@@ -7,7 +7,7 @@ export const MainComponent = () => {
             <HeaderComponent />
             <WhyChooseEasy />
             <LatestArticles />
-            <h1>Aquí vamos...</h1>
+            <FooterComponent />
         </>
     )
 }

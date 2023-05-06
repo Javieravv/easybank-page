@@ -19,11 +19,11 @@ body {
 }
 
 .btn-easybank {
-    background-color: $colorLimeGreen;
-    border: none;
-    border-radius: 25px;
-    text-transform: capitalize;
-    padding: 10px 20px;
+    background-color: $colorLimeGreen !important;
+    border: none !important;
+    border-radius: 25px !important;
+    text-transform: capitalize !important;
+    padding: 10px 20px !important;
     font-weight: bold !important;
 }
 
@@ -61,6 +61,11 @@ h1, h3 {
     
 
     @include media-breakpoint-down(md) {
+        h1 {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
         .rowheader-main {
             height: auto;
 
@@ -81,6 +86,16 @@ h1, h3 {
 }
 
 /*Css para WhyChoose EasyBank*/
+
+.title-choose {
+    cursor: pointer;
+
+    &:hover {
+        font-weight: bold !important;
+        color: $colorLimeGreen !important;
+    }
+}
+
 .container-why-container-main {
     background-color: hsl(235, 46%, 98%);
 }
@@ -108,5 +123,21 @@ h1, h3 {
 
     @include media-breakpoint-down(md) {
         height: auto !important;
+    }
+}
+
+/*Css para el Footer*/
+
+.footer-main-container {
+    background-color: $colorDarkBlue;
+
+    p {
+        color: white !important;
+        font-weight: bold !important;
+    }
+
+    .copyright {
+        opacity: 0.8;
+        color: $colorGrayishBlue !important;
     }
 }

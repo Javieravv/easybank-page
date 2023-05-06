@@ -75,8 +75,7 @@ export const LatestArticles:FC = () => {
                     className="text-center text-md-start"
                 >
                     <Col lg={6} md={8} xs={12}>
-                        <h1 className="mb-5">Why choose EasyBank?</h1>
-                        <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+                        <h1 className="mb-5">Latest Articles</h1>
                     </Col>
                 </Row>
                 <Row>
